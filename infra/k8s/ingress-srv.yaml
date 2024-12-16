@@ -9,7 +9,7 @@ metadata:
     name: ingress-srv
 spec:
   rules:
-    - host: minikube.com
+    - host: minikube.com # minikube ip
       http:
         paths:
           - pathType: Prefix
